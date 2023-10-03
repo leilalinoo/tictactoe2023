@@ -1,0 +1,19 @@
+main{
+    margin: auto;
+}
+.elem{
+    border: 1px dotted purple;
+    border-radius: 5px;
+    cursor: grab;
+    text-align: center;
+    font-size: 70px;
+}
+.elem:hover{
+    background-color: darkgrey;
+}
+
+.jatekter{
+   display: grid;
+   grid-template-columns: 150px 150px 150px;
+   grid-template-rows: 150px 150px 150px;
+}
